@@ -65,7 +65,7 @@ host: connectionString,
 log: 'trace'
 });
 client.ping({
-    requestTimeout: 5000
+    requestTimeout: 1000
 }, function (error) {
     if (error) {
         console.error('elasticsearch is down!');
